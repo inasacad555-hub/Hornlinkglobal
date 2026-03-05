@@ -1,0 +1,29 @@
+import Hero from './components/Hero';
+import About from './components/About';
+import Services from './components/Services';
+import WhyPartner from './components/WhyPartner';
+import CoreValues from './components/CoreValues';
+import Sustainability from './components/Sustainability';
+import TargetMarkets from './components/TargetMarkets';
+import Contact from './components/Contact';
+import Navigation from './components/Navigation';
+import Footer from './components/Footer';
+
+function App() {
+  return (
+    <div className="min-h-screen bg-white">
+      <Navigation />
+      <Hero />
+      <About />
+      <Services />
+      <WhyPartner />
+      <CoreValues />
+      <Sustainability />
+      <TargetMarkets />
+      <Contact />
+      <Footer />
+    </div>
+  );
+}
+
+export default App;
